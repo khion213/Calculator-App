@@ -18,7 +18,11 @@ class CalculatorViewModel : ViewModel() {
     private val operations = Stack<String>()
     private val numbers = Stack<Double>()
     private var isSquareRootNext = false
+<<<<<<< HEAD
    //limited
+=======
+
+>>>>>>> bb2f0178dd7dee96fee2e15d253a5c361d908674
     fun onDigit(digit: Char) {
         if (currentInput.length < 70) {
             currentInput += digit
